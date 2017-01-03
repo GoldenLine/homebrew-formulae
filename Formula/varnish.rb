@@ -4,7 +4,7 @@ class Varnish < Formula
   desc "High-performance HTTP accelerator"
   homepage 'https://www.varnish-cache.org/'
   url 'https://repo.varnish-cache.org/source/varnish-4.0.3.tar.gz'
-  sha1 'ba4668cb7d17f95c4c5e4baf964fe1412a269297'
+  sha256 '94b9a174097f47db2286acd2c35f235e49a2b7a9ddfdbd6eb7aa4da9ae8f8206'
 
   bottle do
     sha256 "050160fe3c7780d56f0ff3a68e26c200c72ffb785451d351cb2b1410d7b86588" => :yosemite
@@ -17,7 +17,7 @@ class Varnish < Formula
 
   resource "docutils" do
     url "https://pypi.python.org/packages/source/d/docutils/docutils-0.11.tar.gz"
-    sha1 "3894ebcbcbf8aa54ce7c3d2c8f05460544912d67"
+    sha256 "9af4166adf364447289c5c697bb83c52f1d6f57e77849abcccd6a4a18a5e7ec9"
   end
 
   def install
