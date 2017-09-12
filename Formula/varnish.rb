@@ -3,8 +3,8 @@ require 'formula'
 class Varnish < Formula
   desc "High-performance HTTP accelerator"
   homepage 'https://www.varnish-cache.org/'
-  url 'https://repo.varnish-cache.org/source/varnish-4.0.3.tar.gz'
-  sha256 '94b9a174097f47db2286acd2c35f235e49a2b7a9ddfdbd6eb7aa4da9ae8f8206'
+  url 'http://varnish-cache.org/_downloads/varnish-4.0.5.tgz'
+  sha256 'd90ffa33902d3ac40742cbb50588a37f467f23797f93e67a261724f4a7fb0aff'
 
   bottle do
     sha256 "050160fe3c7780d56f0ff3a68e26c200c72ffb785451d351cb2b1410d7b86588" => :yosemite
