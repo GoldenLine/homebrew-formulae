@@ -6,12 +6,6 @@ class Varnish < Formula
   url 'http://varnish-cache.org/_downloads/varnish-4.0.5.tgz'
   sha256 'd90ffa33902d3ac40742cbb50588a37f467f23797f93e67a261724f4a7fb0aff'
 
-  bottle do
-    sha256 "050160fe3c7780d56f0ff3a68e26c200c72ffb785451d351cb2b1410d7b86588" => :yosemite
-    sha256 "204524142865d6ea5fc9d1dec5c877402726ec44133bcc0d1e0aeb31e39730c7" => :mavericks
-    sha256 "31c5ee79f9bc61d9951dac9a6f56687b8c2724ff934c90ecfb171687707fd4d3" => :mountain_lion
-  end
-
   depends_on 'pkg-config' => :build
   depends_on 'pcre'
 
